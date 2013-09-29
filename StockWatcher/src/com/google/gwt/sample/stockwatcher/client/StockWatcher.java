@@ -76,10 +76,10 @@ public class StockWatcher implements EntryPoint {
 		signOutLink.setHref(loginInfo.getLogoutUrl());
 		    
 		// Create table for stock data
-		stocksFlexTable.setText(0,0,"Symbol");
-		stocksFlexTable.setText(0,1,"Price");
-		stocksFlexTable.setText(0,2,"Change");
-		stocksFlexTable.setText(0,3,"Remove");
+		stocksFlexTable.setText(0,0,"Symbols!");
+		stocksFlexTable.setText(0,1,"Prices!");
+		stocksFlexTable.setText(0,2,"Changes!");
+		stocksFlexTable.setText(0,3,"Remove!");
 		
 	    // Add styles to elements in the stock list table.
 		stocksFlexTable.setCellPadding(6);
